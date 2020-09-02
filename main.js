@@ -74,5 +74,24 @@ $(document).ready(function() {
     }
   );
 
+  // Cyrcle click
+
+  $("i.first").click(
+    function() {
+      var imgOn = $("img.first");
+      imgnOn.addClass("active");
+      var cyrcleOn = $("i.first");
+      cyrcleOn.addClass("active");
+    }
+  )
+
+  $("i.second").click(
+    function() {
+      var imgOn = $("img.second");
+      imgnOn.addClass("active");
+      var cyrcleOn = $("i.second");
+      cyrcleOn.addClass("active");
+    }
+  )
 
 });
